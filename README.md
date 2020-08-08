@@ -2,6 +2,6 @@
 
 Base de command handler en discord.js v12
 
-## Este command handler es propiedad de Mybot Team
+## Este command handler es propiedad de [Mybot Team](https://portalmybot.com/)
 
 

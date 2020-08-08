@@ -68,7 +68,19 @@ for(const file of readdirSync('./eventos/')) {
 client.login(client.config.token) //agregamos las promesas de la propiedad login.
   .then(() => { 
   console.log(`Estoy listo, soy ${client.user.tag}`);
+client.user.setActivity('pon el estado que quieras', {
+      type: 'PLAYING'
+    });
+    const activities_list = [
+     "pon el estado que quieras",
+     "pon el estado que quieras"
+    ];
+    setInterval(() => {
+      const index = Math.floor(Math.random() * (activities_list.length - 1) + 1);
+      client.user.setActivity(activities_list[index]);
+    }, 30000);
 
+  })
   })
   .catch((err) => {
 

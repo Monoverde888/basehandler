@@ -81,7 +81,6 @@ client.user.setActivity('pon el estado que quieras', {
     }, 30000);
 
   })
-  })
   .catch((err) => {
 
     //Si se produce un error al iniciar sesión, se le indicará en la consola.
